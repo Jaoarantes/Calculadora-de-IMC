@@ -11,13 +11,22 @@
         <h1>Calculadora de IMC</h1>
     </header>
     <main>
-        <div>
-            <p>O <strong>Índice de Massa Corporal (IMC)</strong> é uma medida que relaciona o peso e a altura de uma pessoa. <br>Calcular o IMC é importante por várias razões: <br>-Avaliação do Peso: O IMC fornece uma maneira rápida e simples de avaliar se o peso de uma pessoa está na faixa considerada saudável, subpeso, sobrepeso ou obesidade. Isso ajuda as pessoas a entenderem seu estado geral de saúde em relação ao peso corporal. <br> -Identificação de Riscos à Saúde: O IMC está associado a riscos para a saúde. Pessoas com IMC muito baixo (subpeso) ou muito alto (obesidade) podem enfrentar problemas de saúde, como desnutrição, diabetes, doenças cardiovasculares e outros problemas crônicos. <br> -Estabelecimento de Metas: Calcular o IMC pode ser útil para quem está tentando perder peso ou ganhar massa muscular. Ele fornece uma métrica objetiva para estabelecer metas realistas e acompanhar o progresso.  <br> -Aconselhamento Médico: Os profissionais de saúde usam o IMC como parte da avaliação geral da saúde de um paciente. Com base no IMC, eles podem fornecer conselhos e orientações personalizados sobre dieta, exercícios e cuidados de saúde. <br> -Conscientização sobre a Saúde: O IMC é uma ferramenta que ajuda as pessoas a entenderem a importância de manter um peso saudável e adotar um estilo de vida saudável.</p>
+        <div class="importancia">
+            <img src="IMAGENS/biro-health-insurance.png" alt="Ilustração de academia e saude">
         </div>
 
-        <div>
-          
+        <div class="calc">
+            <div id="calcularIMC">
+                <p>Calculadora de IMC</p>
+                <label for="altura">Altura (M)</label>
+                <input type="text" id="altura" name="altura" required><br>
+                <label for="peso">Peso (KG)</label>
+                <input type="text" id="peso" name="peso" required><br>
+                <input type="submit" class="boton" value="Calcular IMC">
+                <div id="resultado">Seu IMC será exibido aqui</div>
+            </div>
         </div>
+        
     </main>
 
 
