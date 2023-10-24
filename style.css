@@ -1,0 +1,14 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #615f5f;
+}
+
+header{
+    background-color: #0000ffc4;
+    color: #fff;
+}
